@@ -14,6 +14,16 @@ namespace Blog.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
+        public ActionResult HouseMusic()
+        {
+            return View();
+        }
+
+        public ActionResult HouseMusicHistory()
+        {
+            return View();
+        }
+
         // GET: Houses
         public ActionResult Index()
         {

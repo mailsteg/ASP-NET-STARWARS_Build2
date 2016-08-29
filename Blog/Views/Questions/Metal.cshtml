@@ -107,7 +107,7 @@
     </div>
 
     <div>
-        <h1>Qiestions and Answers</h1>
+        <h1>Qiestions</h1>
 
         @{
             ApplicationDbContext db = new ApplicationDbContext();
@@ -130,6 +130,9 @@
                 </th>
                 <th style="color: yellow">
                     Category
+                </th>
+                <th style="color: yellow">
+                    Details
                 </th>
 
             </tr>
@@ -159,7 +162,9 @@
                     <td style="color: yellow">
                         @Html.DisplayFor(modelItem => item.Category)
                     </td>
-
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = item.Id })
+                    </td>
                 </tr>
             }
 

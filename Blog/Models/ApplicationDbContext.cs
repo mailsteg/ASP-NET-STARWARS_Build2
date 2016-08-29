@@ -37,5 +37,8 @@ namespace Blog.Models
 
         public System.Data.Entity.DbSet<Blog.Models.House> Houses { get; set; }
 
+        public System.Data.Entity.DbSet<Blog.Models.LatinPage> LatinPages { get; set; }
+
+
     }
 }
