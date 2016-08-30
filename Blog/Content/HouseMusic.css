@@ -1,31 +1,36 @@
-﻿
-.wrapper {
-  
-    text-align: center;
-    width: 100%;
-    border-radius: 20px;
+﻿body {
+        background-color: black;
 }
 
-body {
-    color: #cccc00;
-    background-size: cover;
-    background-repeat: no-repeat
+.wrapper {
+    width: 100%;
+    color: #0000cd;
+    text-align: center;
+    text-decoration: none;
+    line-height: 0.8;
+    font-size: 26px;
+    font-size: larger;
 }
+
 
 .type {
-    background-color: rgba( 0 , 0 , 153 , 0.5);
-    color:  #00ffff;
-    font-size: 80px;
+    background:url("HouseMusic/BackgroundPicture/house_music_wallpaper_by_neeeb-d5iz8ji.jpg") no-repeat center;
+    color: #0000cd;
+    font-size: 70px;
     visibility: hidden;
     height: 100%;
     width: 100%;
-    text-align: center;
-    vertical-align: middle;
+    word-spacing: 10px;
+    text-align:center;
+    text-decoration-underline: initial;
+    text-underline-style: dot-dash;
+    vertical-align:use-script;
     line-height: 600px;
-    font-family: "Comic Sans MS", cursive, sans-serif	
-
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 a:hover .type {
     visibility: visible;
 }
+
+
