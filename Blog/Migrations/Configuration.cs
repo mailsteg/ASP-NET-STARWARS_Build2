@@ -1,4 +1,4 @@
-using Blog.Models;
+﻿using Blog.Models;
 
 namespace Blog.Migrations
 {
@@ -35,7 +35,7 @@ namespace Blog.Migrations
                     title: "State of Rock music",
                     body: "What do you think about today's rock scene?",
                     date: new DateTime(2016, 03, 27, 17, 53, 48),
-                    authorUsername: "merry@gmail.com",
+                    authorUsername: "pesho@gmail.com",
                     category: "Rock"
                 );
 
