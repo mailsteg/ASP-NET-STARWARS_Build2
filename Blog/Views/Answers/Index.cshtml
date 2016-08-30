@@ -15,13 +15,13 @@
             @Html.DisplayNameFor(model => model.Question.Title)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Text)
+            @Html.DisplayNameFor(model => model.Body)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Date)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.AuthorId)
+            @Html.DisplayNameFor(model => model.Author)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Category)
@@ -35,13 +35,20 @@
             @Html.DisplayFor(modelItem => item.Question.Title)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Text)
+            @Html.DisplayFor(modelItem => item.Body)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Date)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.AuthorId)
+            @if (item.Author != null)
+                {
+                @item.Author.FullName
+            }
+            else
+            {
+                <i>(No Author)</i>
+            }
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Category)

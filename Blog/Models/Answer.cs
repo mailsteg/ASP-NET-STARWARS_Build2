@@ -28,5 +28,7 @@ namespace Blog.Models
         [Required]
         public string Category { get; set; }
 
+        public Question Question { get; set; }
+
     }
 }

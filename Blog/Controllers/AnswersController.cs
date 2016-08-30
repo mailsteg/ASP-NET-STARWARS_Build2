@@ -50,7 +50,7 @@ namespace Blog.Controllers
         [HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Text,Date,AuthorId,Category,QuestionId")] Answer answer)
+        public ActionResult Create([Bind(Include = "Id,Body,Date,Author,Category,QuestionId")] Answer answer)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace Blog.Controllers
         [HttpPost]
         [Authorize(Roles = "Administrators")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Text,Date,AuthorId,Category,QuestionId")] Answer answer)
+        public ActionResult Edit([Bind(Include = "Id,Body,Date,AuthorId,Category,QuestionId")] Answer answer)
         {
             if (ModelState.IsValid)
             {
