@@ -253,6 +253,7 @@
     <Content Include="Content\img\create-background.jpg" />
     <Content Include="Content\img\delete-background.jpg" />
     <Content Include="Content\img\details-view-background.jpg" />
+    <Content Include="Content\img\favicon.ico" />
     <Content Include="Content\img\home-view\house_HomeView.jpg" />
     <Content Include="Content\img\home-view\latino_HomeView.jpg" />
     <Content Include="Content\img\home-view\rock_metal_HomeView.jpg" />
