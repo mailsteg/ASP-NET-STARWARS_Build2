@@ -40,10 +40,10 @@
 }
 
 #srubsko {
-    font-size: 25px;
-    line-height: 80px;
+    font-size:60px;
+    line-height:100px;
     font-family: Tahoma, Geneva, sans-serif;
-    color: rgb(102, 255, 255);
+    color: darkgrey;
 }
 #house {
     font-size: 37px;
